@@ -20,8 +20,6 @@ const getFakeCard = () => {
 }
 
 const App = ({userOne, userTwo, onChange, onRoundStart, turn}) => {
-
-  console.log(userOne, userTwo);
   const onDataPush = (user, card) => {
     onChange(user, {
       cards: user.cards.filter(e => e.id !== card.id),
