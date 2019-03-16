@@ -1,0 +1,14 @@
+.slots {
+  border: 2px solid black;
+  overflow: auto;
+  height: 163.92px;
+}
+
+.slots__cards {
+  display: flex;
+  padding: 24px;
+}
+
+.slots__cards .card + .card {
+  margin-left: 24px;
+}

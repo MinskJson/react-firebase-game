@@ -1,0 +1,12 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #ccc;
+}
+
+.app_user-one, .app_user-two  {
+  border: 1px solid #ccc;
+  margin: 12px;
+  padding: 12px;
+}
